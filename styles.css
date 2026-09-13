@@ -1882,7 +1882,9 @@ section[id] {
 }
 
 .support-content {
-  grid-column: 2;
+  grid-column: 1 / -1;
+  width: min(100%, 52rem);
+  margin-inline: auto;
 }
 
 .support-contact {
