@@ -1881,6 +1881,10 @@ section[id] {
   padding-block: clamp(5rem, 10vw, 9rem);
 }
 
+.support-content {
+  grid-column: 2;
+}
+
 .support-contact {
   position: sticky;
   top: 7rem;
@@ -1889,6 +1893,11 @@ section[id] {
   border: 1px solid var(--border);
   border-radius: var(--radius-md);
   background: var(--surface);
+}
+
+.support-contact--hero {
+  position: static;
+  margin-top: var(--space-5);
 }
 
 .support-contact h2 {
@@ -2198,6 +2207,10 @@ section[id] {
 
   .support-contact {
     max-width: 34rem;
+  }
+
+  .support-content {
+    grid-column: auto;
   }
 
   .legal-toc nav {
